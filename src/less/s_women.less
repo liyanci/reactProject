@@ -1,0 +1,29 @@
+@import './main.less';
+.banner2-01{
+    .w(375);
+    .h(250);
+    background-image: url(../images/banner2-01.jpg);
+    background-size: 100%;
+}
+.mainPart{
+    position: relative;
+    img{
+        .w(375);
+        .h(234);
+    }
+    .text{
+        .w(220);
+        .padding(5,15,5,15);
+        position: absolute;
+        left: 50%;
+        bottom: -2px;
+        background: #fff;
+        transform: translateX(-50%);
+        text-align: center;
+        h3{
+            font-weight: bold;
+            .fs(12);
+            margin-bottom:5px;
+        }
+    }
+}
